@@ -38,18 +38,18 @@ export const menuItems = [
           title: 'Transformation and Change Management',
           url: 'TransformationandChangeManagement',
         },
-        {
-          title: 'Business Process Outsourcing',
-          url: 'BusinessProcessOutsourcing',
-        },
+        // {
+        //   title: 'Business Process Outsourcing',
+        //   url: 'BusinessProcessOutsourcing',
+        // },
         {
           title: 'Digital Innovation and Adoption',
           url: 'DigitalInnovationandAdoption',
         },
-        {
-          title: 'Sustainability (ESG)',
-          url: 'sustainability',
-        },
+        // {
+        //   title: 'Sustainability (ESG)',
+        //   url: 'sustainability',
+        // },
         {
           title: 'Artificial Intelligence',
           url: 'artificialIntelligence',
@@ -68,42 +68,42 @@ export const menuItems = [
           title: 'Finance',
           url: 'finance',
         },
-        {
-          title: 'Regulatory',
-          url: 'regulatory',
-        },
-        {
-          title: 'Insurance',
-          url: 'insurance',
-        },
+        // {
+        //   title: 'Regulatory',
+        //   url: 'regulatory',
+        // },
+        // {
+        //   title: 'Insurance',
+        //   url: 'insurance',
+        // },
         {
           title: 'Banking',
           url: 'banking',
         },
-        {
-          title: 'FMCG',
-          url: 'FMCG',
-        },
-        {
-          title: 'Telecom',
-          url: 'telecom',
-        },
-        {
-          title: 'Manufacturing',
-          url: 'manufacturing',
-        },
+        // {
+        //   title: 'FMCG',
+        //   url: 'FMCG',
+        // },
+        // {
+        //   title: 'Telecom',
+        //   url: 'telecom',
+        // },
+        // {
+        //   title: 'Manufacturing',
+        //   url: 'manufacturing',
+        // },
         {
           title: 'Education',
           url: 'education',
         },
-        {
-          title: 'Oil & Gas',
-          url: 'Oil&Gas',
-        },
-        {
-          title: 'Metal & Minning',
-          url: 'MetalMinning',
-        },
+        // {
+        //   title: 'Oil & Gas',
+        //   url: 'Oil&Gas',
+        // },
+        // {
+        //   title: 'Metal & Minning',
+        //   url: 'MetalMinning',
+        // },
         {
           title: 'Health Care',
           url: 'healthCare',
@@ -122,11 +122,11 @@ export const menuItems = [
           title: 'FinTex',
           url: 'finTex',
         },
-        {
-          title: 'YieldSTA',
-          url: 'yieldSTA',
-        },
-        {
+        // {
+        //   title: 'YieldSTA',
+        //   url: 'yieldSTA',
+        // },
+        { 
           title: 'Earth',
           url: 'earth',
         }
