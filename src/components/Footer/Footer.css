@@ -1,0 +1,142 @@
+.line {
+    border-top: 1px solid black;
+  width: 100%;
+  max-width: 800px; 
+  margin: 20px auto;
+  display: block;
+  clear: both;
+  }
+
+ .container {
+    width: 80%;
+    max-width: 1920px;
+    margin-inline: auto ;
+}
+
+footer{
+    background: #181823;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 0.9rem;  
+    color: grey;
+    
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 30rem 1fr 1fr 1fr 1fr 1fr;
+    gap: 6rem;
+}
+
+.footer__container article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     gap: 0.5rem;
+}
+
+.footer__container article p{
+    margin-top: 0.2rem;
+}
+.footer__container article h4{
+    margin-bottom: 0.6rem;
+    font-size: 1rem;    
+}
+
+.footer__socials {
+    display: flex;
+    gap: 1rem;
+    margin-left: 5rem;
+}
+
+h1,h2,h3,h4,h5{
+   line-height: 1.2;
+   color: #FAF8F1;
+}
+
+h1{
+   font-size: 3rem;
+
+}
+
+.join_us{
+    color: #FAF8F1;
+   font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+a{
+   color: grey;
+   text-decoration: none;
+}
+
+.txt{
+    color: antiquewhite;
+}
+
+
+
+a:hover{
+    color: aqua;
+}
+
+
+.social_icon{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+.Adress{
+    margin-top: 2rem;
+    
+}
+
+.Adress p{
+    font-size: 1rem;
+}
+
+.Footer_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+  .Footer_logo img {
+    margin-right: 4rem;
+    width:80px; /* Change this value to adjust the logo size */
+    height: auto;
+  }
+    
+
+
+  
+  .footer__copyright{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+
+/* ====================rotating image ==================== */
+
+
+.image {
+    width: 100px; /* Change this value to adjust the logo size */
+    height: auto;
+    transition: transform 0.5s ease; /* Add a transition effect */
+  }
+  
+  .image img {
+    display: block;
+  }
+  
+  .image:hover {
+    transform: rotate(120deg);
+  }
