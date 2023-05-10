@@ -1,0 +1,26 @@
+.Container{
+    border-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        /* width: 100vw;
+        height: 100vh; */
+        background-image: url("../../../assets/carousel/background-2.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.topContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 500px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: steelblue;
+  }

@@ -46,6 +46,10 @@ export const menuItems = [
           title: 'Digital Innovation and Adoption',
           url: 'DigitalInnovationandAdoption',
         },
+        {
+          title: 'Technology Innovation and Consulting',
+          url: 'TechnologyInnovation',
+        },
         // {
         //   title: 'Sustainability (ESG)',
         //   url: 'sustainability',
