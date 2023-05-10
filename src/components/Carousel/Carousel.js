@@ -1,24 +1,23 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import './Carousel.css';
-import { useEffect } from 'react';
 
 const Carousel = ({images}) => {
     const [current, setCurrent] = useState(0);
     const [autoPlay, setautoplay] = useState(true);
     const timeOutRef = useRef(null);
 
-    const slideRight = () => {
-        setCurrent(current === images.length - 1 ? 0 : current + 1);
-    };
+    const slideRight = useCallback(() => {
+        setCurrent(current => current === images.length - 1 ? 0 : current + 1);
+    }, [images.length]);
 
     useEffect(() => {
         timeOutRef.current = autoPlay && setTimeout(slideRight, 2500);
         return () => clearTimeout(timeOutRef.current);
-    }, [current, autoPlay, images.length, slideRight]);
+    }, [current, autoPlay, slideRight]);
 
-    const slideLeft = () => {
-        setCurrent(current === 0 ? images.length - 1 : current - 1);
-    }
+    const slideLeft = useCallback(() => {
+        setCurrent(current => current === 0 ? images.length - 1 : current - 1);
+    }, [images.length]);
 
     return (
         <div className='carousel'
