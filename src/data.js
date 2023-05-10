@@ -17,7 +17,7 @@ export const countries =[
     {
         image: require("./assets/carousel/di-2.jpg"),
         title: 'Digital Innovation and Adoption',
-        body : 'Lead effective organizational change.',
+        body : 'Embrace the Future with Digital Innovation.',
     },
     {
         image: require("./assets/carousel/ti-1.jpg"),
