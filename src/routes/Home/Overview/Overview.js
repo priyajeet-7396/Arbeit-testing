@@ -2,7 +2,6 @@ import React from 'react'
 import Carousel from '../../../components/Carousel/Carousel'
 import  {countries}  from '../../../data'
 import './Overview.css'
-import video from '../../../assets/carousel/background-vid.mp4';
 
 const Overview = () => {
   return (
