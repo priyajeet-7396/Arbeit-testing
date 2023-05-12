@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: sans-serif;
+
   height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
 }
-
-
 
 
 

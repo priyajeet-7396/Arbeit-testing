@@ -1,144 +1,179 @@
+/* Add this CSS to the existing code */
+
+/* Add a box-sizing property to handle padding and border properly */
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  /* Add media query for laptop screens */
+  @media only screen and (min-width: 1024px) {
+    /* Set the container width to 90% of the viewport width */
+    .container {
+      width: 90%;
+    }
+  
+    /* Set the line width to 90% of the container width */
+    .line {
+      width: 90%;
+    }
+  }
+  
+  /* Set the background color to cover the entire screen */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+
+/* Default styles */
 .line {
     border-top: 1px solid black;
-  width: 100%;
-  max-width: 800px; 
-  margin: 20px auto;
-  display: block;
-  clear: both;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+    clear: both;
   }
-
- .container {
+  
+  .container {
     width: 80%;
     max-width: 1920px;
-    margin-inline: auto ;
-}
-
-footer{
+    margin-inline: auto;
+  }
+  
+  footer {
     background: #181823;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    font-size: 0.9rem;  
+    font-size: 0.9rem;
     color: grey;
-    
-}
-
-.footer__container{
+  }
+  
+  .footer__container {
     display: grid;
     grid-template-columns: 30rem 1fr 1fr 1fr 1fr 1fr;
     gap: 6rem;
-}
-
-.footer__container article{
+  }
+  
+  .footer__container article {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-     gap: 0.5rem;
-}
-
-.footer__container article p{
+    gap: 0.5rem;
+  }
+  
+  .footer__container article p {
     margin-top: 0.2rem;
-}
-.footer__container article h4{
+  }
+  
+  .footer__container article h4 {
     margin-bottom: 0.6rem;
-    font-size: 1rem;    
-}
-
-.footer__socials {
+    font-size: 1rem;
+  }
+  
+  .footer__socials {
     display: flex;
     gap: 1rem;
     margin-left: 5rem;
-}
-
-.footer__container h4{
-   line-height: 1.2;
-   color: #FAF8F1;
-}
-
-h1{
-   font-size: 3rem;
-
-}
-
-.join_us{
-    color: #FAF8F1;
-   font-size: 2rem;
-  margin-top: 1.5rem;
-}
-
-a{
-   color: grey;
-   text-decoration: none;
-}
-
-.txt{
+  }
+  
+  .footer__container h4 {
+    line-height: 1.2;
+    color: #faf8f1;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .join_us {
+    color: #faf8f1;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  a {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  .txt {
     color: antiquewhite;
-}
-
-
-
-a:hover{
+  }
+  
+  a:hover {
     color: aqua;
-}
-
-
-.social_icon{
-    
+  }
+  
+  .social_icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
-}
-.Adress{
+  }
+  
+  .Adress {
     margin-top: 2rem;
-   
-    
-}
-
-.Adress p{
+  }
+  
+  .Adress p {
     font-size: 1rem;
     color: rgb(183, 183, 183);
-}
-
-.Footer_logo {
+  }
+  
+  .Footer_logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-
   
   .Footer_logo img {
     margin-right: 4rem;
-    width:80px; /* Change this value to adjust the logo size */
+    width: 80px; /* Change this value to adjust the logo size */
     height: auto;
   }
-    
-
-
   
-  .footer__copyright{
+  .footer__copyright {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+  }
+  
+  /* Styles for screens with a maximum width of 1024px */
+  @media only screen and (max-width: 1024px) {
+    .footer__container {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4rem;
+    }
     
+    .Footer_logo img {
+      margin-right: 2rem;
+      width: 60px;
+    }
+    
+    .footer__socials {
+      margin-left: 2rem;
+    }
+  }
+  
+  /* Styles for screens with a maximum width of 768px */
+  @media only screen and (max-width: 768px) {
+    .footer__container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem;
+    }
 }
-
-
-/* ====================rotating image ==================== */
-
-
-.image {
-    width: 100px; /* Change this value to adjust the logo size */
-    height: auto;
-    transition: transform 0.5s ease; /* Add a transition effect */
-  }
+    
+    .Footer_logo img {
+      margin-right: 2rem;
+      width: 50px;
+    }
+    
+    .footer__socials {
+      margin-left: 2rem;
+    }
+    
   
-  .image img {
-    display: block;
-  }
-  
-  .image:hover {
-    transform: rotate(120deg);
-  }

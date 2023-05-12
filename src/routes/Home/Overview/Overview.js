@@ -8,7 +8,6 @@ const Overview = () => {
     <div className='Container'>
     <div className='topContent'>
         <h2>Our Solutions</h2>
-        <h3>"A Concise Overview of Our Services" </h3>
         <Carousel images={countries} />
        
     </div>
