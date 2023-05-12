@@ -1,4 +1,4 @@
-/* Add this CSS to the existing code */
+
 
 /* Add a box-sizing property to handle padding and border properly */
 *, *:before, *:after {
@@ -129,9 +129,10 @@
   }
   
   .Footer_logo img {
-    margin-right: 4rem;
+    margin-right: 7rem;
     width: 80px; /* Change this value to adjust the logo size */
     height: auto;
+    margin-left: 0;
   }
   
   .footer__copyright {
@@ -177,3 +178,19 @@
     }
     
   
+
+ 
+
+
+
+
+
+
+    @media (max-width: 1500px) {
+      .footer__container {
+        display: grid;
+        grid-template-columns: 25rem 1fr 1fr 1fr 1fr 1fr;
+        gap: 4rem;
+      }
+    
+    }

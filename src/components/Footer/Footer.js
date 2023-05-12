@@ -78,10 +78,10 @@ const Footer = () => {
      
         </article>
         <article>
-            <h4>Insights</h4>
-            <Link to="industryTrend">Industry Trend</Link>
-            <Link to="OurThinking">Our Thinking</Link>
-            <Link to="news">News</Link>
+            <h4>About</h4>
+            <Link to="who-we-are">WHO WE ARE</Link>
+            <Link to="howwework">HOW WE WORK</Link>
+            <Link to="our-culture">OUR CULTURE AND COMMITMENT</Link>
      
         </article>
         </div>
