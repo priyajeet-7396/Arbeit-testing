@@ -1,62 +1,3 @@
-/* .Container{
-    border-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url("../../../assets/carousel/background-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.topContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    font-size: 15px;
-    color: steelblue;
-}
-
-@media (min-width: 768px) {
-    .Container {
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
-
-    .topContent {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 992px) {
-    .Container {
-        margin-top: 100px;
-        margin-bottom: 200px;
-    }
-
-    .topContent {
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .Container {
-        margin-top: 150px;
-        margin-bottom: 300px;
-    }
-
-    .topContent {
-        font-size: 30px;
-    }
-} */
-
-
-
-/* old code not responsive for all screens  */
-
 .Container{
     border-color: aliceblue;
     display: flex;
@@ -81,4 +22,19 @@
     margin-top: 50px;
     font-size: 15px;
     color: steelblue;
+  }
+
+  
+    
+@media (max-width: 1500px) {
+
+    .topContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 470px;
+        margin-top: 50px;
+        font-size: 15px;
+        color: steelblue;
+      }
   }

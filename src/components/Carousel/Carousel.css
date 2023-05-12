@@ -1,131 +1,3 @@
-/* .carousel{
-    display: flex;
-    height: 100px;  
-    width: 100px;
-    position: relative;
-    margin-top: 3rem;
-    margin-right: 69rem;
-}
-
-.carousel_wrapper{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.carousel_card{
-    display: flex;
-    flex: 1;
-    overflow: hidden;
-    position: absolute;
-    width: 1200px;
-    height: 500px;
-    display: flex;
-    border-radius: 20px;
-    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(.8);
-    transition: 0.5s ease-in-out;
-}
-
-.carousel_card-active{
-    opacity: 1;
-    transform: scale(1);
-    pointer-events: visible;
-}
-
-.card_image{
-    width: 100%;
-    object-fit: cover;
-}
-
-.card_overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 40px 30px;
-    align-items: flex-end;
-}
-
-.card_overlay p{
-    font-size: small;
-}
-
-.card_title {
-    color: azure;
-    font-size: 30px;
-}
-
-.carousel_arrow_left, .carousel_arrow_right{
-    position: absolute;
-    font-size: 40px;
-    top: 180%;
-    transform: translate(0,-50%);
-    background-color: gainsboro;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    padding-bottom: 7px;
-    cursor: pointer;
-}
-
-.carousel_arrow_left{
-    left: -100px;
-    transition: all 0.2s ease-in-out;
-}
-
-.carousel_arrow_left:hover {
-    transform: scale(5);
-}
-
-.carousel_arrow_right{
-    right: -1200px;
-    transition: all 0.2s ease-in-out;
-}
-
-.carousel_arrow_right:hover {
-    transform: scale(5);
-}
-
-.carousel_pagination {
-    position: absolute;
-    bottom: -410px;
-    left: 650%;
-    transform: translate(-360%, 0) rotate(90deg);
-  }
-  
-  .pagination_dot {
-    height: 10px;
-    width: 10px;
-    background-color: #f5f5f5;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-  
-  .pagination_dot:hover {
-    transform: scale(1.5);
-  }
-  
-  .pagination_dot-active {
-    background-color: steelblue;
-  } */
-
-
-
-
-
-
-
-/* old code not responsive for all screens  */
-
 .carousel{
     display: flex;
     height: 100px;  
@@ -160,16 +32,12 @@
     transition: 0.5s ease-in-out;
 }
 
+
 .carousel_card-active{
         opacity: 1;
         transform: scale(1);
         pointer-events: visible;
-
 }
-
-
-
-
 
 .card_image{
     width: 100%;
@@ -194,7 +62,7 @@
 }
 
 .carousel_arrow_left ,.carousel_arrow_right{
-    position: absolute;
+    position: relative;
     font-size: 40px;
     top: 180%;
     transform: translate(0,-50%);
@@ -218,7 +86,7 @@
     transform: scale(5);
 }
 .carousel_arrow_right{
-    right: -1200px;
+    right: -1260px;
     transition: all 0.2s ease-in-out;
 }
 .carousel_arrow_right:hover {
@@ -248,4 +116,55 @@
   
   .pagination_dot-active {
     background-color: steelblue;
+  }
+
+  
+@media (max-width: 1500px) {
+    .carousel_card{
+        width: 1100px;
+        height: 500px;
+    }
+    .carousel{
+    
+        margin-top: 2rem;
+        margin-right: 62rem;
+    }
+    .carousel_arrow_left ,.carousel_arrow_right{
+        position: relative;
+        font-size: 40px;
+        top: 170%;
+        transform: translate(0,-50%);
+        background-color: gainsboro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-bottom: 7px;
+        cursor: pointer;
+    }
+    
+    .carousel_arrow_left{
+        left: -70px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .carousel_arrow_left:hover {
+        transform: scale(3);
+    }
+    .carousel_arrow_right{
+        right: -1130px;
+        transition: all 0.2s ease-in-out;
+    }
+    .carousel_arrow_right:hover {
+        transform: scale(3);
+    }
+    .carousel_pagination {
+        position: absolute;
+        bottom: -410px;
+        left: 620%;
+        transform: translate(-360%, 0) rotate(90deg);
+      }
+    
   }
