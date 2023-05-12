@@ -52,7 +52,7 @@
   
   .footer__container {
     display: grid;
-    grid-template-columns: 30rem 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20rem 1fr 1fr 1fr 1fr 1fr;
     gap: 6rem;
   }
   
@@ -133,7 +133,15 @@
     width: 80px; /* Change this value to adjust the logo size */
     height: auto;
     margin-left: 0;
+    transition: transform 0.3s ease-in-out;
   }
+
+  .Footer_logo img:hover {
+    transform: rotate(120deg); /* rotate the image by 360 degrees on hover */
+  }
+
+
+
   
   .footer__copyright {
     margin-top: 3rem;

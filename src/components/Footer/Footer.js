@@ -4,7 +4,7 @@ import Logo from '../../assets/logo_icon.png'
 import { FaLinkedin } from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa"
 import { AiOutlineTwitter } from "react-icons/ai"
-import { AiFillInstagram } from "react-icons/ai"
+import {FaYoutube} from 'react-icons/fa'
 import './Footer.css'
 
 
@@ -23,10 +23,10 @@ const Footer = () => {
                 </div>
             </Link>
             <div className="footer__socials">
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener"><FaLinkedin/></a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer noopener"><FaFacebook/></a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer noopener"><AiOutlineTwitter/></a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer noopener"><AiFillInstagram/></a>
+            <a href="https://www.linkedin.com/company/arbeitassociates/" target="_blank" rel="noreferrer noopener"><FaLinkedin/></a>
+            <a href="https://www.facebook.com/profile.php?id=100081945938792" target="_blank" rel="noreferrer noopener"><FaFacebook/></a>
+            <a href="https://twitter.com/arbeitasso" target="_blank" rel="noreferrer noopener"><AiOutlineTwitter/></a>
+            <a href="https://www.youtube.com/channel/UCvJiOFfF7WXscr8fdSq3Cpw" target="_blank" rel="noreferrer noopener"><FaYoutube/></a>
             </div>
       </div>
         <div className="join_us">
