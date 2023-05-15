@@ -3,7 +3,6 @@
 const DataAnalytics = () => {
   return (
     <div>
-  <Datahero/>
   </div>
   )
 }
