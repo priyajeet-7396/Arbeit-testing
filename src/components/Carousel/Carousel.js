@@ -32,7 +32,7 @@ const Carousel = ({images}) => {
                                 <h2 className='card_title'>
                                     {image.title}
                                 </h2>
-                                <p>
+                                <p className='card_body'>
                                     {image.body}
                                 </p>
                             </div>

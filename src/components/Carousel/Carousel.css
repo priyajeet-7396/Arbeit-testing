@@ -56,9 +56,12 @@
     font-size: small;
 }
 
-.card_title {
+.card_title  {
     color: azure;
     font-size: 30px;
+}
+.card_body{
+    color: azure;
 }
 
 .carousel_arrow_left ,.carousel_arrow_right{
@@ -168,3 +171,111 @@
       }
     
   }
+
+
+  /* ============================for small screen ========================================= */
+
+  @media screen and (max-width: 480px) {
+    .carousel_card{
+        width: 350px;
+        height: 730px;
+    }
+    .carousel{
+    
+        margin-top: 0px;
+        margin-right: 15.5rem;
+    }
+    .carousel_arrow_left ,.carousel_arrow_right{
+        position: relative;
+        font-size: 40px;
+        top: 640%;
+        transform: translate(0,-50%);
+        background-color: gainsboro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-bottom: 7px;
+        cursor: pointer;
+    }
+    
+    .carousel_arrow_left{
+        top: 670%;
+        left: 19px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .carousel_arrow_left:hover {
+        transform: scale(1);
+    }
+    .carousel_arrow_right{
+        right: -290px;
+        transition: all 0.2s ease-in-out;
+    }
+    .carousel_arrow_right:hover {
+        transform: scale(1);
+    }
+
+    
+
+    .carousel_pagination {
+        position: absolute;
+        bottom: -610px;
+        left: 230%;
+        transform: translate(-360%, 0) rotate(90deg);
+      }
+  }
+  
+
+    /* iPhone SE */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    .carousel_card{
+        width: 350px;
+        height: 580px;
+    }
+
+    
+    .carousel_pagination {
+        position: absolute;
+        bottom: -470px;
+        left: 230%;
+        transform: translate(-360%, 0) rotate(90deg);
+      }
+      .carousel_arrow_left ,.carousel_arrow_right{
+        position: relative;
+        font-size: 40px;
+        top: 500%;
+        transform: translate(0,-50%);
+        background-color: gainsboro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-bottom: 7px;
+        cursor: pointer;
+    }
+
+      .carousel_arrow_left{
+        top: 530%;
+        left: 19px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .carousel_arrow_left:hover {
+        transform: scale(1);
+    }
+    .carousel_arrow_right{
+        right: -290px;
+        transition: all 0.2s ease-in-out;
+    }
+    .carousel_arrow_right:hover {
+        transform: scale(1);
+    }
+
+
+  }
+  

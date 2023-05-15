@@ -46,42 +46,43 @@ const Footer = () => {
             Email : info@arbeit.co.in
             </p> 
       </div>
-                     
+           
+        </article>
+        
+        <article>
+            <h4 className="link-title">Capabilities</h4>
+            <Link className="footer-menu-link" to="dataAnalytics">Data & Analytics</Link>
+            <Link className="footer-menu-link" to="humanResourceManagement">Human Resource Management</Link>
+            <Link className="footer-menu-link" to="TransformationandChangeManagement">Transformation and Change Management</Link>
+            <Link className="footer-menu-link" to="DigitalInnovationandAdoption">Digital Innovation and Adoption</Link>
+            <Link className="footer-menu-link" to="artificialIntelligence">Artificial Intelligence</Link>
         </article>
         <article>
-            <h4>Capabilities</h4>
-            <Link to="dataAnalytics">Data & Analytics</Link>
-            <Link to="humanResourceManagement">Human Resource Management</Link>
-            <Link to="TransformationandChangeManagement">Transformation and Change Management</Link>
-            <Link to="DigitalInnovationandAdoption">Digital Innovation and Adoption</Link>
-            <Link to="artificialIntelligence">Artificial Intelligence</Link>
+            <h4 className="link-title">Industry</h4>
+            <Link className="footer-menu-link" to="agriculture">Agriculture</Link>
+            <Link className="footer-menu-link" to="finance">Finance</Link>
+            <Link className="footer-menu-link" to="banking">Banking</Link>
+            <Link className="footer-menu-link" to="education">Education</Link>
+            <Link className="footer-menu-link" to="healthCare">Health Care</Link>
+            <Link className="footer-menu-link" to="capitalMarket">Capital Market</Link>
         </article>
         <article>
-            <h4>Industry</h4>
-            <Link to="agriculture">Agriculture</Link>
-            <Link to="finance">Finance</Link>
-            <Link to="banking">Banking</Link>
-            <Link to="education">Education</Link>
-            <Link to="healthCare">Health Care</Link>
-            <Link to="capitalMarket">Capital Market</Link>
+            <h4 className="link-title" >Products</h4>
+            <Link className="footer-menu-link" to="finTex">FinTex</Link>
+            <Link className="footer-menu-link" to="earth">Earth</Link>
         </article>
         <article>
-            <h4>Products</h4>
-            <Link to="finTex">FinTex</Link>
-            <Link to="earth">Earth</Link>
-        </article>
-        <article>
-            <h4>Insights</h4>
-            <Link to="industryTrend">Industry Trend</Link>
-            <Link to="OurThinking">Our Thinking</Link>
-            <Link to="news">News</Link>
+            <h4 className="link-title">Insights</h4>
+            <Link className="footer-menu-link" to="industryTrend">Industry Trend</Link>
+            <Link className="footer-menu-link" to="OurThinking">Our Thinking</Link>
+            <Link className="footer-menu-link" to="news">News</Link>
      
         </article>
         <article>
-            <h4>About</h4>
-            <Link to="who-we-are">WHO WE ARE</Link>
-            <Link to="howwework">HOW WE WORK</Link>
-            <Link to="our-culture">OUR CULTURE AND COMMITMENT</Link>
+            <h4 className="link-title">About</h4>
+            <Link className="footer-menu-link" to="who-we-are">WHO WE ARE</Link>
+            <Link className="footer-menu-link" to="howwework">HOW WE WORK</Link>
+            <Link className="footer-menu-link" to="our-culture">OUR CULTURE AND COMMITMENT</Link>
      
         </article>
         </div>
