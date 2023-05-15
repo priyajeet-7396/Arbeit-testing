@@ -1,10 +1,9 @@
 import Navbar from './Navbar';
 import './Header.css'
-// ...
+
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 import React, { useState, useEffect } from "react";
-import { slide as Menu } from 'react-burger-menu'
 
 
 
@@ -24,8 +23,6 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
-
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 
   return (
