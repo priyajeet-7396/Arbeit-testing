@@ -1,8 +1,10 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const FinTex = () => {
   return (
-    <div>FinTex</div>
+    <div>
+          <Background tagline=" FinTex " />
+    </div>
   )
 }
 

@@ -135,6 +135,14 @@ a:hover {
   margin-left: 0;
 }
 
+
+
+  /* =============logo rotate ============= */
+.Footer_logo img:hover {
+  transform: rotate(120deg);
+  transition: transform 0.3s ease-in-out;
+}
+
 .footer__copyright {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
@@ -154,6 +162,19 @@ a:hover {
     margin-right: 2rem;
     width: 60px;
   }
+
+  /* =============logo rotate ============= */
+.Footer_logo img:hover {
+  transform: rotate(120deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
   
   .footer__socials {
     margin-left: 2rem;

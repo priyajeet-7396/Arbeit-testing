@@ -1,8 +1,10 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const Finance = () => {
   return (
-    <div>Finance</div>
+    <div>
+            <Background tagline=" Finance " />
+    </div>
   )
 }
 

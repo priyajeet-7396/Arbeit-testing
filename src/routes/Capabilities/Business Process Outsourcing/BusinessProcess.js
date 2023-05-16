@@ -1,8 +1,10 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const BusinessProcess = () => {
   return (
-    <div>BusinessProcess</div>
+    <div>
+      <Background tagline=" Business Process" />
+    </div>
   )
 }
 

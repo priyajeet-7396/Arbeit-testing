@@ -1,8 +1,9 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"  
 
 const HumanResourceManagement = () => {
   return (
-    <div>HumanResourceManagement</div>
+    <div> <Background tagline="  Human Resource Management" />
+    </div>
   )
 }
 

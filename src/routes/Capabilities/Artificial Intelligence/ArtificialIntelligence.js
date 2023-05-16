@@ -1,8 +1,10 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const ArtificialIntelligence = () => {
   return (
-    <div>ArtificialIntelligence</div>
+    <div>
+      <Background tagline=" Artificial Intelligence " />
+    </div>
   )
 }
 

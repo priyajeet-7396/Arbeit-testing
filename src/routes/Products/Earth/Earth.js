@@ -1,8 +1,10 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const Earth = () => {
   return (
-    <div>Earth</div>
+    <div>
+       <Background tagline=" Earth " />
+    </div>
   )
 }
 

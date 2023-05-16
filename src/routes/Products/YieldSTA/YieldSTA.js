@@ -1,8 +1,10 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const YieldSTA = () => {
   return (
-    <div>YieldSTA</div>
+    <div>
+           <Background tagline=" YieldSTA " />
+    </div>
   )
 }
 

@@ -1,8 +1,10 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const CULTURE = () => {
   return (
-    <div>CULTURE</div>
+    <div>
+        <Background tagline=" Our Culture" />
+    </div>
   )
 }
 

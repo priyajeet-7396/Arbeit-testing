@@ -1,8 +1,11 @@
-import React from 'react'
+import Background from "../../../components/Background/Background"
 
 const HOWWEWORK = () => {
   return (
-    <div>HOWWEWORK</div>
+    <div>
+    <Background tagline="How we work" />
+
+    </div>
   )
 }
 
