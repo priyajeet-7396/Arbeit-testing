@@ -26,10 +26,11 @@ function HeroSection() {
     const observer = new IntersectionObserver(handleIntersection, options);
     observer.observe(videoRef.current);
 
+    const currentVideoRef = videoRef.current; // Store videoRef.current in a variable
     setShouldShow(true);
 
     return () => {
-      observer.unobserve(videoRef.current);
+      observer.unobserve(currentVideoRef); // Use the stored variable in the cleanup function
     };
   }, []);
 
