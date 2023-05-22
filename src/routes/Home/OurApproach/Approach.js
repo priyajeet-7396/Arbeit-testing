@@ -186,74 +186,74 @@ const Text = styled.div`
   font-weight: 600;
   color: rgb(30, 98, 150);
 `;
-const SearchWrapper = styled.div`
-  position: absolute;
-  bottom: 60px;
-  height: 120px;
-  width: 450px;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: all 0.4s ease;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  ${'' /* box-shadow: rgba(0, 0, 0, 0.03) 0px 46px 50px; */}
+// const SearchWrapper = styled.div`
+//   position: absolute;
+//   bottom: 60px;
+//   height: 120px;
+//   width: 450px;
+//   z-index: 2;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   transition: all 0.4s ease;
+//   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+//   box-shadow: rgba(0, 0, 0, 0.03) 0px 46px 50px;
 
-  ${'' /* :hover {
-    transition: all 0.4s ease;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  } */}
-`;
-const SearchInput = styled.input`
-  flex-grow: 1;
-  height: inherit;
-  outline: none;
-  border: none;
-  padding-left: 50px;
-  box-sizing: border-box;
-  font-size: 20px;
+//   :hover {
+//     transition: all 0.4s ease;
+//     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+//   }
+// `;
+// const SearchInput = styled.input`
+//   flex-grow: 1;
+//   height: inherit;
+//   outline: none;
+//   border: none;
+//   padding-left: 50px;
+//   box-sizing: border-box;
+//   font-size: 20px;
 
-  ::placeholder {
-    font-size: 20px;
-    color: #1e1e2f;
-    font-family: "Archia-Regular";
-    transition: all 0.4s ease;
-  }
+//   ::placeholder {
+//     font-size: 20px;
+//     color: #1e1e2f;
+//     font-family: "Archia-Regular";
+//     transition: all 0.4s ease;
+//   }
 
-  :active {
-    color: red;
-  }
+//   :active {
+//     color: red;
+//   }
 
-  :focus {
-    ::placeholder {
-      transition: all 0.4s ease;
-      opacity: 0.5;
-    }
-  }
-`;
-const SearchButtom = styled.button`
-  height: 100%;
+//   :focus {
+//     ::placeholder {
+//       transition: all 0.4s ease;
+//       opacity: 0.5;
+//     }
+//   }
+// `;
+// const SearchButtom = styled.button`
+//   height: 100%;
 
-  aspect-ratio: 1;
-  outline: none;
-  border: none;
-  font-size: 34px;
-  font-weight: 600;
-  font-family: "Archia-Regular";
+//   aspect-ratio: 1;
+//   outline: none;
+//   border: none;
+//   font-size: 34px;
+//   font-weight: 600;
+//   font-family: "Archia-Regular";
 
-  background: linear-gradient(to top, #97c680 50%, #feba88 50%);
-  background-size: 100% 200%;
-  background-position-y: -100%;
-  transition: all 0.3s ease;
-  user-select: none;
-  cursor: pointer;
+//   background: linear-gradient(to top, #97c680 50%, #feba88 50%);
+//   background-size: 100% 200%;
+//   background-position-y: -100%;
+//   transition: all 0.3s ease;
+//   user-select: none;
+//   cursor: pointer;
 
-  :hover {
-    background-position-y: 100%;
-    transition: all 0.3s ease;
+//   :hover {
+//     background-position-y: 100%;
+//     transition: all 0.3s ease;
     
-  }
-`;
+//   }
+// `;
 
 const ContentWrap1 = styled.div`
   box-sizing: border-box;
