@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import './Carousel.css';
 
+
 const Carousel = ({images}) => {
     const [current, setCurrent] = useState(0);
     const [autoPlay, setautoplay] = useState(true);

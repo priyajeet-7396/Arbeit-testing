@@ -7,7 +7,6 @@ const Overview = () => {
   return (
     <div className='Container'>
     <div className='topContent'>
-        <h2>Our Solutions</h2>
         <Carousel images={countries} />
        
     </div>

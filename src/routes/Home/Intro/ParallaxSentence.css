@@ -1,0 +1,53 @@
+.parallax-sentence {
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: 	#e7e6e6;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .parallax-layer {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s, transform 0.8s;
+    color: rgb(30, 98, 150);
+    font-size: 3rem;
+    font-weight: bold;
+      
+  }
+  
+  .parallax-sentence.reveal .parallax-layer {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .prompt {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    opacity: 1;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
