@@ -283,13 +283,13 @@ const TopicListWrapper = styled.div`
   text-align: center;
   color: #fff;
 `;
-const TopicItems = styled.div`
-  font-size: 52px;
-  line-height: 1;
-`;
-const TopicText = styled.div`
-  text-transform: uppercase;
-`;
+// const TopicItems = styled.div`
+//   font-size: 52px;
+//   line-height: 1;
+// `;
+// const TopicText = styled.div`
+//   text-transform: uppercase;
+// `;
 
 const ContentWrap2 = styled.div`
   width: 120px;
