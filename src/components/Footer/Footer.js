@@ -52,7 +52,7 @@ const Footer = () => {
         <article>
             <h4 className="link-title">Capabilities</h4>
             <Link className="footer-menu-link" to="dataAnalytics">Data & Analytics</Link>
-            <Link className="footer-menu-link" to="humanResourceManagement">Human Resource Management</Link>
+            <Link className="footer-menu-link" to="https://www.arbeit.co.in/hr/">Human Resource Management</Link>
             <Link className="footer-menu-link" to="TransformationandChangeManagement">Transformation and Change Management</Link>
             <Link className="footer-menu-link" to="DigitalInnovationandAdoption">Digital Innovation and Adoption</Link>
             <Link className="footer-menu-link" to="artificialIntelligence">Artificial Intelligence</Link>

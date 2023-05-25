@@ -10,29 +10,30 @@ export const menuItems = [
         },
         {
           title: 'Human Resource Management',
-          url: 'humanResourceManagement',
-          submenu: [
-                   {
-                     title: 'Recruitment',
-                     url: 'humanResourceManagement',
-                   },
-                   {
-                    title: 'Payroll Management',
-                    url: 'humanResourceManagement',
-                  },
-                  {
-                    title: 'HR Analytics',
-                    url: 'humanResourceManagement',
-                  },
-                  {
-                    title: 'H1B Visa',
-                    url: 'humanResourceManagement',
-                  },
-                  {
-                    title: 'Contracing',
-                    url: 'humanResourceManagement',
-                  },
-                  ]
+          // url: 'humanResourceManagement',
+          url:'https://www.arbeit.co.in/hr/',
+          // submenu: [
+          //          {
+          //            title: 'Recruitment',
+          //            url: 'humanResourceManagement',
+          //          },
+          //          {
+          //           title: 'Payroll Management',
+          //           url: 'humanResourceManagement',
+          //         },
+          //         {
+          //           title: 'HR Analytics',
+          //           url: 'humanResourceManagement',
+          //         },
+          //         {
+          //           title: 'H1B Visa',
+          //           url: 'humanResourceManagement',
+          //         },
+          //         {
+          //           title: 'Contracing',
+          //           url: 'humanResourceManagement',
+          //         },
+          //         ]
         },
         {
           title: 'Transformation and Change Management',
