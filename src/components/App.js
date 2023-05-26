@@ -102,7 +102,7 @@ const App = () => {
 
 
           {/* ====================random============= */}
-          <Route path="*" element={<p>Not found!</p>} />
+          {/* <Route path="*" element={<p>Not found!</p>} /> */}
         </Route>
       </Routes>
     </>
