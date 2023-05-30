@@ -1,0 +1,236 @@
+/* Banner.css */
+
+/* for images  */
+
+/* Banner.css */
+
+/* .banner {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.banner-slide.active {
+  opacity: 1;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination-dot.active {
+  background-color: #ff0000;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  animation: slideIn 1s forwards;
+}
+
+.slide-caption {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.slide-description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* for video */
+
+
+ .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last value) to control the darkness */
+  z-index: 1;
+}
+
+.banner {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.banner-slide.active {
+  opacity: 1;
+}
+
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 20px; /* Adjust the value as per your preference */
+  transform: translateY(-50%);
+  text-align: left;
+  color: #fff;
+  z-index: 1;
+}
+
+.text-overlay h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #FFFF00;
+}
+
+.text-overlay p {
+  font-size: 2rem;
+}
+
+
+.banner-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination-dot.active {
+  background-color: #ff0000;
+}
+
+
+.slide-caption.animate {
+  animation: slideInDown 0.5s ease forwards;
+}
+
+.slide-description.animate {
+  animation: slideInUp 0.5s ease forwards;
+}
+
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} 
+
+
+@media (max-width: 480px) {
+  .text-overlay h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .text-overlay p {
+    font-size: 1.5rem;
+  }
+}
