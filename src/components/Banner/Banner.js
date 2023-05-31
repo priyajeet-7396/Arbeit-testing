@@ -82,7 +82,7 @@ const Banner = ({ slides }) => {
       setCurrentSlide((prevSlide) =>
         prevSlide === slides.length - 1 ? 0 : prevSlide + 1
       );
-    }, 10000);
+    }, 7000);
 
     return () => clearInterval(interval);
   }, [slides.length]);
