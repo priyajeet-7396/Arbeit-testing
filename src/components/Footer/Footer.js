@@ -22,67 +22,50 @@ const Footer = () => {
                 <img src={Logo} alt="Footer Logo"  />
                 </div>
             </Link>
-            <div className="footer__socials">
+           
+            <div className="join_us">
+        <Link  className="txt" to="join">Contact Us</Link>
+        </div>  
+      </div>
+      <div className="social_icon">
+      <div className="footer__socials">
             <a href="https://www.linkedin.com/company/arbeitassociates/" target="_blank" rel="noreferrer noopener"><FaLinkedin/></a>
             <a href="https://www.facebook.com/profile.php?id=100081945938792" target="_blank" rel="noreferrer noopener"><FaFacebook/></a>
             <a href="https://twitter.com/arbeitasso" target="_blank" rel="noreferrer noopener"><AiOutlineTwitter/></a>
             <a href="https://www.youtube.com/channel/UCvJiOFfF7WXscr8fdSq3Cpw" target="_blank" rel="noreferrer noopener"><FaYoutube/></a>
             </div>
-      </div>
-        <div className="join_us">
-        <Link  className="txt" to="join">Join us</Link>
-        </div>      
+    </div>
       <div className="Adress">
       <p>
-            B-231, First Floor, Greater Kailash-1 
+            Privacy Policy  .  Terms of Use
             </p>
-            <p>
-            New Delhi 110048 (India) 
-            </p>
-            <p>
-            Tel: 011-43029393
-            </p>
-            <p>
-            Email : info@arbeit.co.in
-            </p> 
+            
       </div>
            
         </article>
         
         <article>
             <h4 className="link-title">Capabilities</h4>
-            <Link className="footer-menu-link" to="dataAnalytics">Data & Analytics</Link>
-            <Link className="footer-menu-link" to="https://www.arbeit.co.in/hr/">Human Resource Management</Link>
-            <Link className="footer-menu-link" to="TransformationandChangeManagement">Transformation and Change Management</Link>
-            <Link className="footer-menu-link" to="DigitalInnovationandAdoption">Digital Innovation and Adoption</Link>
-            <Link className="footer-menu-link" to="artificialIntelligence">Artificial Intelligence</Link>
+            <Link className="footer-menu-link" to="dataAnalytics">Digital Transformation & AI</Link>
+            <Link className="footer-menu-link" to="https://www.arbeit.co.in/hr/">Human Capital</Link>
+            <Link className="footer-menu-link" to="TransformationandChangeManagement">Transformation and Change Management</Link>   
         </article>
         <article>
             <h4 className="link-title">Industry</h4>
             <Link className="footer-menu-link" to="agriculture">Agriculture</Link>
-            <Link className="footer-menu-link" to="finance">Finance</Link>
-            <Link className="footer-menu-link" to="banking">Banking</Link>
-            <Link className="footer-menu-link" to="education">Education</Link>
-            <Link className="footer-menu-link" to="healthCare">Health Care</Link>
-            <Link className="footer-menu-link" to="capitalMarket">Capital Market</Link>
+            <Link className="footer-menu-link" to="finance">Banking & Finance</Link>
+            <Link className="footer-menu-link" to="banking">Infrastructure</Link>
+            <Link className="footer-menu-link" to="education">Capital Market</Link>
         </article>
         <article>
-            <h4 className="link-title" >Products</h4>
+            <h4 className="link-title" >Solutions</h4>
             <Link className="footer-menu-link" to="finTex">FinTex</Link>
-            <Link className="footer-menu-link" to="earth">Earth</Link>
-        </article>
-        <article>
-            <h4 className="link-title">Insights</h4>
-            <Link className="footer-menu-link" to="industryTrend">Industry Trend</Link>
-            <Link className="footer-menu-link" to="OurThinking">Our Thinking</Link>
-            <Link className="footer-menu-link" to="news">News</Link>
-     
+            <Link className="footer-menu-link" to="earth">Human Capital</Link>
+            <Link className="footer-menu-link" to="earth">Capital Market</Link>
+            <Link className="footer-menu-link" to="earth">RegTech</Link>
         </article>
         <article>
             <h4 className="link-title">About</h4>
-            <Link className="footer-menu-link" to="who-we-are">WHO WE ARE</Link>
-            <Link className="footer-menu-link" to="howwework">HOW WE WORK</Link>
-            <Link className="footer-menu-link" to="our-culture">OUR CULTURE AND COMMITMENT</Link>
      
         </article>
         </div>

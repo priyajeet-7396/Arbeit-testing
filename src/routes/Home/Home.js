@@ -9,9 +9,11 @@ import video2 from '../../assets/video-24.mp4';
 import video3 from '../../assets/video-25.mp4';
 import video4 from '../../assets/video-15.mp4';
 import video5 from '../../assets/video-40.mp4';
+import video6 from '../../assets/video-50.mp4';
 import image1 from '../../assets/carousel/HR-1.webp';
 import image2 from '../../assets/carousel/Data-3.webp';
 import image3 from '../../assets/carousel/change.webp';
+import OurClients from "./OurClients/OurClients";
 
 
 
@@ -72,6 +74,11 @@ const Home = () => {
       caption: '  Predict. Invest. Prosper.',
       description: 'Unlocking stock insights for wealth creation.',
     },
+    {
+      video: video6,
+      caption: 'Leading the Way in Legal, Compliance and Innovation',
+      description: 'Leveraging cutting-edge technologies, our solutions eliminate tedious and labor-intensive tasks, allowing your team to focus on more strategic and value-added activities.',
+    },
   ];
 
   return (
@@ -81,6 +88,7 @@ const Home = () => {
     <Approach/>
     <ParallaxSentence/>
     <Overwiew/>
+    <OurClients/>
     </div>
   )
 }

@@ -58,9 +58,9 @@ function App() {
         <ContainerWrapper>
           <First>
             <TextWrapper>
-              <Text>What.</Text>
-              <Text>We.</Text>
-              <Text>Do.</Text>
+              <Text>What</Text>
+              <Text>We</Text>
+              <Text>Do</Text>
             </TextWrapper>
             {/* <SearchWrapper>
               <SearchInput placeholder="Find your passion" />
@@ -82,6 +82,7 @@ function App() {
                     isActive={o.id === activeItem}
                     isFirst={o.id === 1}
                   >
+                  
                     <CourseFullname>{o.name}</CourseFullname>
                     <TopicListWrapper>
                       {/* <TopicItems>{o.topicList}</TopicItems> */}
@@ -115,7 +116,7 @@ const AppContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fcfbfb;
+  background-color: #f1f1f;
 
   
 `;

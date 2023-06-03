@@ -30,7 +30,7 @@ body {
 .line {
   border-top: 1px solid black;
   width: 100%;
-  max-width: 800px;
+  max-width: 1400px;
   margin: 20px auto;
   display: block;
   clear: both;
@@ -52,8 +52,8 @@ footer {
 
 .footer__container {
   display: grid;
-  grid-template-columns: 30rem 1fr 1fr 1fr 1fr 1fr;
-  gap: 6rem;
+  grid-template-columns: 20rem 25fr 15fr 10fr  1fr;
+  gap: 5rem;
 }
 
 .footer__container article {
@@ -75,7 +75,8 @@ footer {
 .footer__socials {
   display: flex;
   gap: 1rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
 }
 
 .footer__container h4 {
@@ -90,7 +91,6 @@ h1 {
 .join_us {
   color: #faf8f1;
   font-size: 2rem;
-  margin-top: 1.5rem;
 }
 
 a {
@@ -114,7 +114,7 @@ a:hover {
 }
 
 .Adress {
-  margin-top: 2rem;
+  margin-top: .3rem;
 }
 
 .Adress p {
@@ -129,7 +129,7 @@ a:hover {
 }
 
 .Footer_logo img {
-  margin-right: 7rem;
+  margin-right: 2rem;
   width: 80px; /* Change this value to adjust the logo size */
   height: auto;
   margin-left: 0;
@@ -144,8 +144,8 @@ a:hover {
 }
 
 .footer__copyright {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
