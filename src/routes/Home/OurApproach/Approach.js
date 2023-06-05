@@ -52,6 +52,7 @@ function App() {
   };
 
   return (
+   
     <div className="approach_section">
     <AppContainer>
       <Wrapper>
@@ -64,7 +65,7 @@ function App() {
             </TextWrapper>
             {/* <SearchWrapper>
               <SearchInput placeholder="Find your passion" />
-              <SearchButtom>Go</SearchButtom>
+              <SearchButtom>Go</SearchBu  ttom>
             </SearchWrapper> */}
           </First>
           <Container className="main">
@@ -103,6 +104,7 @@ function App() {
       </Wrapper>
     </AppContainer>
     </div>
+
   );
 }
 
@@ -122,6 +124,7 @@ const AppContainer = styled.div`
 `;
 const Wrapper = styled.div`
   width: 1300px;
+  
 `;
 
 const ContainerWrapper = styled.div`
@@ -129,11 +132,14 @@ const ContainerWrapper = styled.div`
   height: 100%;
   display: flex;
   justify-content: space-between;
+  
 `;
 
 const First = styled.div`
   font-size: 40px;
   position: relative;
+
+
 `;
 const Container = styled.div`
   display: flex;
@@ -142,8 +148,12 @@ const Container = styled.div`
   overflow: hidden;
   min-width: 600px;
   max-width: 930px;
-  width: calc(100% - 100px);
+  width: calc(100% - 50px);
   height: 600px;
+
+
+
+  
 `;
 const ItemWrapper = styled.div`
   position: relative;
@@ -154,6 +164,7 @@ const ItemWrapper = styled.div`
   padding: 0 20px;
   flex-grow: ${({ isActive }) => (isActive ? 4 : 1)};
   transition: all 0.6s ease;
+
 `;
 
 const Item = styled.div`
@@ -309,3 +320,9 @@ const ShortName = styled.div`
   font-size: 34px;
   transform: rotate(-90deg);
 `;
+
+
+
+
+
+

@@ -1,12 +1,12 @@
 import Background from "../../../components/Background/Background"
 
-const HOWWEWORK = () => {
+const AboutUs = () => {
   return (
     <div>
-    <Background tagline="How we work" />
+    <Background tagline=" About Us" />
 
     </div>
   )
 }
 
-export default HOWWEWORK
+export default AboutUs

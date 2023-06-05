@@ -1,11 +1,11 @@
 import Background from "../../../components/Background/Background"
 
-const IndustryTrend = () => {
+const FinTech = () => {
   return (
     <div>
-       <Background tagline=" Industry Trend " />
+          <Background tagline=" FinTech " />
     </div>
   )
 }
 
-export default IndustryTrend
+export default FinTech

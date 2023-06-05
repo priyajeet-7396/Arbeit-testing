@@ -3,7 +3,7 @@ import Background from "../../../components/Background/Background"
 const Finance = () => {
   return (
     <div>
-            <Background tagline=" Finance " />
+            <Background tagline=" Banking and Finance " />
     </div>
   )
 }

@@ -1,11 +1,12 @@
 import Background from "../../../components/Background/Background"
 
-const FinTex = () => {
+
+const Regtech = () => {
   return (
     <div>
-          <Background tagline=" FinTex " />
+        <Background tagline=" RegTech " />
     </div>
   )
 }
 
-export default FinTex
+export default Regtech

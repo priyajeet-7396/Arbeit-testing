@@ -6,7 +6,7 @@ export const menuItems = [
       submenu: [
         {
           title: 'Digital Transformation & AI',
-          url: 'dataAnalytics',
+          url: 'digitaltransformation',
         },
         {
           title: 'Human Capital',
@@ -20,7 +20,7 @@ export const menuItems = [
           //         ]
         },
         {
-          title: 'Transformation and Change Management',
+          title: 'Transformation & Change Management',
           url: 'TransformationandChangeManagement',
         },
         
@@ -40,7 +40,7 @@ export const menuItems = [
         },
         {
           title: 'Infrastructure',
-          url: 'manufacturing',
+          url: 'infrastructure',
         },
         {
           title: 'Capital Market',
@@ -54,19 +54,19 @@ export const menuItems = [
       submenu: [
         {
           title: 'Fintech',
-          url: 'finTex',
+          url: 'finTech',
         },
         {
           title: 'Human Capital',
-          url: 'yieldSTA',
+          url: 'humancapital',
         },
         { 
           title: 'Capital Market',
-          url: 'earth',
+          url: 'capitalmarket',
         },
         { 
           title: 'RegTech',
-          url: 'earth',
+          url: 'regtech',
         }
       ],
     },
@@ -82,12 +82,12 @@ export const menuItems = [
     // },
     {
       title: 'About Us',
-      url: ' ',
+      url: 'aboutus',
      
     },
     {
       title: 'Career',
-      url: ' ',
+      url: 'joinus',
       // submenu: [
       //   {
       //     title: 'Join Us',

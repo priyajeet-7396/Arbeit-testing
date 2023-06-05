@@ -1,11 +1,12 @@
 import Background from "../../../components/Background/Background"
 
-const YieldSTA = () => {
+
+const HumanCapital = () => {
   return (
     <div>
-           <Background tagline=" YieldSTA " />
+       <Background tagline=" Human Capital " />
     </div>
   )
 }
 
-export default YieldSTA
+export default HumanCapital

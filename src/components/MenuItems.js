@@ -96,7 +96,7 @@ const MenuItems = ({ items, depthLevel }) => {
             dropdown={dropdown}
           />
         </>
-        ) : items.title === 'Human Resource Management' ? (
+        ) : items.title === 'Human Capital' ? (
       <a href={items.url} target="_blank" rel="noopener noreferrer">
         {items.title}
       </a>
