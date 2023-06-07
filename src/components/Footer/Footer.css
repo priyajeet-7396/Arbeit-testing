@@ -195,7 +195,7 @@ a:hover {
   }
   
   .footer__socials {
-    margin-left: 2rem;
+    margin-left: 3rem;
   }
   
 
@@ -241,6 +241,8 @@ a:hover {
     .footer__socials {
       margin-left: 3rem;
     }
+
+    
     
     .footer__copyright {
       margin-top: 1rem;

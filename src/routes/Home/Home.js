@@ -14,6 +14,7 @@ import image1 from '../../assets/carousel/HR-1.webp';
 import image2 from '../../assets/carousel/Data-3.webp';
 import image3 from '../../assets/carousel/change.webp';
 import OurClients from "./OurClients/OurClients";
+import Approachmobile from "./OurApproach/Approach_mobile";
 
 
 
@@ -86,6 +87,7 @@ const Home = () => {
     {/* <HeroSection/> */}
    <Banner slides={slides} />
     <Approach/>
+    <Approachmobile/>
     <ParallaxSentence/>
     <Overwiew/>
     <OurClients/>

@@ -92,7 +92,7 @@ function App() {
                   </ContentWrap1>
                   <ContentWrap2
                     isActive={o.id === activeItem}
-                    isFirst={o.id === 1}
+                    
                   >
                     <ShortName>{o.shortName}</ShortName>
                   </ContentWrap2>
@@ -138,6 +138,7 @@ const ContainerWrapper = styled.div`
 const First = styled.div`
   font-size: 40px;
   position: relative;
+
 
 
 `;
