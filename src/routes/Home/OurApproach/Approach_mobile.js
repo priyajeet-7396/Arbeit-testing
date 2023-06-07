@@ -11,25 +11,25 @@ const Approachmobile = () => {
           <h1>What We Do</h1>
           <div className="image-cards">
             <div className="image-card">
-              <img src={image1} alt="Image 1" />
+              <img src={image1} alt="Collaborative Partnership" />
               <div className="image-card-overlay">
                 <h2>Collaborative Partnership</h2>
               </div>
             </div>
             <div className="image-card">
-              <img src={image2} alt="Image 2" />
+              <img src={image2} alt="Innovation and Agility" />
               <div className="image-card-overlay">
                 <h2>Innovation and Agility</h2>
               </div>
             </div>
             <div className="image-card">
-              <img src={image3} alt="Image 3" />
+              <img src={image3} alt="Customer-Centric Focus" />
               <div className="image-card-overlay">
-                <h2>Innovation and Agility</h2>
+                <h2>Customer-Centric Focus</h2>
               </div>
             </div>
             <div className="image-card">
-              <img src={image4} alt="Image 4" />
+              <img src={image4} alt="Expertise and Excellence" />
               <div className="image-card-overlay">
                 <h2>Expertise and Excellence</h2>
               </div>

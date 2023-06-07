@@ -10,8 +10,9 @@ export const menuItems = [
         },
         {
           title: 'Human Capital',
-        url: 'https://www.arbeit.co.in/hr/',
-        target: '_blank',
+          url: 'humanResourceManagement',
+        // url: 'https://www.arbeit.co.in/hr/',
+        // target: '_blank',
           // submenu: [
           //          {
           //            title: 'Recruitment',
