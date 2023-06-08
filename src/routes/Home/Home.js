@@ -13,7 +13,7 @@ import video6 from '../../assets/video-50.mp4';
 import image1 from '../../assets/carousel/HR-1.webp';
 import image2 from '../../assets/carousel/Data-3.webp';
 import image3 from '../../assets/carousel/change.webp';
-import OurClients from "./OurClients/OurClients";
+
 import Approachmobile from "./OurApproach/Approach_mobile";
 
 
@@ -90,7 +90,7 @@ const Home = () => {
     <Approachmobile/>
     <ParallaxSentence/>
     <Overwiew/>
-    <OurClients/>
+
     </div>
   )
 }

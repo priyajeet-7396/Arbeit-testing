@@ -10,7 +10,7 @@ export const menuItems = [
         },
         {
           title: 'Human Capital',
-        url: 'https://www.arbeit.co.in/hr/',
+        url: 'humanResourceManagement',
         target: '_blank',
           // submenu: [
           //          {
@@ -83,17 +83,17 @@ export const menuItems = [
     {
       title: 'About Us',
       url: 'aboutus',
+        submenu: [
+   
+      ],
      
     },
     {
       title: 'Career',
       url: 'joinus',
-      // submenu: [
-      //   {
-      //     title: 'Join Us',
-      //     url: 'join',
-      //   }
-      // ],
+         submenu: [
+   
+      ],
     },
    
   

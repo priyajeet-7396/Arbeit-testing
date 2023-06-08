@@ -96,7 +96,7 @@ const MenuItems = ({ items, depthLevel }) => {
             dropdown={dropdown}
           />
         </>
-        ) : items.title === 'Human Capital' ? (
+        ) : items.title === 'page to open in another tab ' ? (
       <a href={items.url} target="_blank" rel="noopener noreferrer">
         {items.title}
       </a>

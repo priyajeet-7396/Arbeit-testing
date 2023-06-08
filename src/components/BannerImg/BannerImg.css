@@ -1,0 +1,141 @@
+.banner_hr {
+  position: relative;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.slider_hr {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.slide_hr {
+  position: relative;
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.image_hr {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content_hr {
+  position: absolute;
+  top: 50%;
+  left: 75%; /* Adjust the left value as needed */
+  transform: translate(-50%, -50%);
+  text-align: left; /* Adjust the text alignment as needed */
+  color: rgb(30, 98, 150);
+  width: 100%;
+  max-width: 400px; /* Adjust the width as needed */
+}
+
+
+.heading_hr {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: 900px
+}
+
+.paragraph_hr {
+  font-size: 18px;
+}
+
+.arrows_hr {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.arrow_hr {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.arrow_hr:hover {
+  color: #3e4faf;
+  transform: scale(1.2);
+}
+
+.left_hr {
+  margin-right: auto;
+}
+
+.right_hr {
+  margin-left: auto;
+}
+
+.contact_btn_hr {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #3e4faf;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact_btn_hr:hover {
+  background-color: #000000;
+  transform: scale(1.1);
+}
+
+
+/* Media query for mobile screens */
+
+@media (max-width: 600px) {
+
+  .banner_hr {
+    padding-top: 70px;
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+
+  .content_hr {
+    padding-top: 10px;
+    left: 70%; /* Adjust the left value for mobile screens */
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center; /* Adjust the text alignment for mobile screens */
+  }
+
+  .heading_hr {
+    font-size: 23px;
+  }
+
+  .paragraph_hr {
+    display: none;
+  }
+  .contact_btn_hr {
+    font-size: 9px;
+    padding: 5px 10px;
+    background-color: #3e4faf;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    margin-top: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  
+}
+
