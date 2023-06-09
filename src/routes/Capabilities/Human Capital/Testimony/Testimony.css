@@ -1,0 +1,52 @@
+.testimony-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem 10rem 2rem;
+  }
+  
+  .blue-box {
+    background-color: #165d9c;
+    padding: 80px;
+    color: white;
+    border-radius: 0 150px 0 0;
+
+  }
+  
+  .testimony-heading {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  .testimony-paragraph {
+    margin: 0;
+  }
+  
+  .testimony-image {
+    margin-left: 20px;
+    width: 700px;
+    border-radius: 50px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .testimony-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .blue-box {
+      border-radius: 0;
+      padding: 40px;
+      border-radius:  15px;
+    }
+  
+    .testimony-image {
+      margin: 20px auto;
+      width: 100%;
+      max-width: 400px;
+    }
+    .testimony-heading {
+        margin: 0;
+        font-size: 2rem;
+      }
+  }

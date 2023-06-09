@@ -1,11 +1,15 @@
 import BannerImg from '../../../components/BannerImg/BannerImg'
-import Card from '../../../components/Card/Card'
+import CardContainer from './CardContainer/CardContainer'
+import Testimony from "./Testimony/Testimony"
 
 const HumanCapital = () => {
   return (
     <div> 
     <BannerImg/>
-    {/* <Card/> */}
+ 
+<CardContainer/>
+<Testimony/>
+
     </div>
   )
 }

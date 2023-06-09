@@ -1,12 +1,14 @@
 import React from 'react';
-import { BsBank } from 'react-icons/bs'; // Replace 'IconName' with the specific icon you want to use from react-icons library
-import './Card.css'; // Optional CSS file for styling the card component
+import './Card.css';
 
-const Card = ({ title }) => {
+const Card = ({ title, iconName }) => {
+  const IconComponent = iconName;
+
   return (
+
     <div className="card">
       <div className="card-icon">
-        <BsBank size={50} /> {/* Replace 'IconName' with the specific icon component */}
+        <IconComponent className= " icon" size={50} />
       </div>
       <div className="card-title">
         {title}

@@ -1,26 +1,60 @@
+
+
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+  /* Your existing styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 7 - 16px); /* Adjust the width calculation as desired */
+  max-width: 200px; /* Set a maximum width for the cards */
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 8px 16px; /* Adjust margin for spacing between cards and rows */
+  transition: all 0.3s ease; /* Add transition effect to all properties */
+}
+
+.card-icon .icon {
+  color: rgb(7, 36, 108); /* Replace "red" with your desired color */
+}
+
+
+.card-title {
+  font-size: 18px; /* Adjust the font size as desired */
+  font-weight: 50px; /* Add font-weight style if desired */
+  color: rgb(0, 0, 0); /* Replace "blue" with your desired color */
+  margin-top: 8px; /* Add margin-top as desired */
+}
+
+.card:hover {
+  transform: scale(1.08); /* Scale up the size on hover */
+  background-color: rgb(23, 23, 74); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.card:hover .icon {
+  color: white; /* Change icon color on hover */
+}
+
+.card:hover .card-title {
+  color: white; /* Change title color on hover */
+}
+
+
+@media (max-width: 768px) {
+  .card {
+      width: calc(100% / 3 - 16px); /* Display three cards per row on desktop */
+  width: 90px; /* Set a maximum width for the cards */
+  height: 90px;
   
-  .card-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 16px;
   }
-  
   .card-title {
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 10px; /* Adjust the font size as desired */
+    font-weight: 50px; /* Add font-weight style if desired */
+    color: rgb(0, 0, 0); /* Replace "blue" with your desired color */
+    margin-top: 8px; /* Add margin-top as desired */
   }
-  
+}

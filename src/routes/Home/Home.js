@@ -9,14 +9,14 @@ import video3 from '../../assets/video-25.mp4';
 import video4 from '../../assets/video-15.mp4';
 import video5 from '../../assets/video-40.mp4';
 import video6 from '../../assets/video-50.mp4';
-<<<<<<< HEAD
+
 import image1 from '../../assets/carousel/HR-1.webp';
 import image2 from '../../assets/carousel/Data-3.webp';
 import image3 from '../../assets/carousel/change.webp';
 
-=======
+
 import OurClients from "./OurClients/OurClients";
->>>>>>> 6690558fef92358c9d9e30ecf1b78fc5c8f987c4
+
 import Approachmobile from "./OurApproach/Approach_mobile";
 
 
