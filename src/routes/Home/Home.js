@@ -10,12 +10,12 @@ import video4 from '../../assets/video-15.mp4';
 import video5 from '../../assets/video-40.mp4';
 import video6 from '../../assets/video-50.mp4';
 
-import image1 from '../../assets/carousel/HR-1.webp';
-import image2 from '../../assets/carousel/Data-3.webp';
-import image3 from '../../assets/carousel/change.webp';
+// import image1 from '../../assets/carousel/HR-1.webp';
+// import image2 from '../../assets/carousel/Data-3.webp';
+// import image3 from '../../assets/carousel/change.webp';
 
 
-import OurClients from "./OurClients/OurClients";
+// import OurClients from "./OurClients/OurClients";
 
 import Approachmobile from "./OurApproach/Approach_mobile";
 

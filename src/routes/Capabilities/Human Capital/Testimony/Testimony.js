@@ -14,7 +14,7 @@ const Testimony = () => {
       </div>
       <img
         src={testimonyImage}
-        alt="Image"
+        alt="how we can help you "
         className="testimony-image"
       />
     </div>

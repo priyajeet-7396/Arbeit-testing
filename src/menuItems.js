@@ -13,8 +13,6 @@ export const menuItems = [
 
         url: 'humanResourceManagement',
         target: '_blank',
-
-          url: 'humanResourceManagement',
         // url: 'https://www.arbeit.co.in/hr/',
         // target: '_blank',
 

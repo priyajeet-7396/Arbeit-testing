@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
@@ -11,7 +11,7 @@ import ListItem from "@mui/material/ListItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import FileCopyIcon from "@mui/icons-material/FileCopy";
+// import FileCopyIcon from "@mui/icons-material/FileCopy";
 import Menu from "./Nav";
 import CustomMenu from "./menuitems.js";
 import Link from '@mui/material/Link';
