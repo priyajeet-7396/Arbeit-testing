@@ -3,12 +3,12 @@ import Approach from "./OurApproach/Approach";
 import Overwiew from "./Overview/Overview";
 import React from 'react'
 import Banner from "../../components/Banner/Banner";
-import video1 from '../../assets/video-20.mp4';
-import video2 from '../../assets/video-24.mp4';
-import video3 from '../../assets/video-25.mp4';
-import video4 from '../../assets/video-15.mp4';
-import video5 from '../../assets/video-40.mp4';
-import video6 from '../../assets/video-50.mp4';
+import video1 from '../../assets/video-20.webm';
+import video2 from '../../assets/video-24.webm';
+import video3 from '../../assets/video-25.webm';
+import video4 from '../../assets/video-15.webm';
+import video5 from '../../assets/video-40.webm';
+import video6 from '../../assets/video-50.webm';
 
 // import image1 from '../../assets/carousel/HR-1.webp';
 // import image2 from '../../assets/carousel/Data-3.webp';
