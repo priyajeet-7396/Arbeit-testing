@@ -25,7 +25,7 @@ import Approachmobile from "./OurApproach/Approach_mobile";
 const Home = () => {
   const slides =
   
-//  for images 
+//  for images  
   // [
   //   {
   //     image: image1,
