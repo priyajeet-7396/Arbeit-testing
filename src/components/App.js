@@ -15,10 +15,14 @@ import DigitalTransformation from '../routes/Capabilities/Digital Transformation
 
 
 
+
 const App = () => {
+
+
+
   return (
     <>
-    
+
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

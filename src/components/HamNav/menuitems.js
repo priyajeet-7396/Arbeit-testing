@@ -3,13 +3,14 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Link from '@mui/material/Link';
+import { Link as RouterLink } from 'react-router-dom';
 
 export default function CustomMenu({ menuName, menuItems }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
 
   const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
+    setAnchorEl(event.currentTarget); 
   };
 
   const handleClose = () => {
@@ -43,7 +44,14 @@ export default function CustomMenu({ menuName, menuItems }) {
       >
         {menuItems.map((item, index) => (
           <MenuItem key={index} onClick={handleClose}>
-            <Link color="black" href={item.link} underline="none">{item.text}</Link>
+          <Button
+              component={RouterLink}
+              to={item.link}
+              color="inherit"
+              underline="none"
+            >
+              {item.text}
+            </Button>
           </MenuItem>
         ))}
       </Menu>

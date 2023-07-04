@@ -4,7 +4,7 @@ import { Outlet, useLocation } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import { StyledEngineProvider } from '@mui/material/styles';
 import Demo from '../components/HamNav/Demo';
-
+// import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 
 
@@ -16,6 +16,7 @@ const Layout = () => {
   }, [location.pathname]);
 
   return (
+
     <div className='page' >
           <StyledEngineProvider injectFirst>
       <Demo />
@@ -26,6 +27,7 @@ const Layout = () => {
       </div>
       <Footer/>
     </div>
+
   );
 };
 
