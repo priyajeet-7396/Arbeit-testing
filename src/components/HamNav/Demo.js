@@ -14,12 +14,13 @@ import Typography from "@mui/material/Typography";
 // import FileCopyIcon from "@mui/icons-material/FileCopy";
 import Menu from "./Nav";
 import CustomMenu from "./menuitems.js";
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 import logoImage from '../../assets/logo.png';
 import Button from "@mui/material/Button";
+import { Link } from 'react-router-dom';
 
 
-const drawerWidth = 240;
+const drawerWidth = 240; 
 const menuItems1 = [
   { text: 'Digital Transformation & Ai', link: '/digitaltransformation' },
   { text: 'Human Capital', link: '/humanResourceManagement' },
@@ -52,7 +53,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-      <Link href="/" underline="none">
+      <Link component={Link} to="/" underline="none">
       <img src={logoImage} alt="Logo" style={{ width: "120px" }} /> 
         </Link>
       </Typography>
@@ -86,9 +87,9 @@ function DrawerAppBar(props) {
           variant="h6"
           component="div"
         >
-            <Link href="/" underline="none">
+            <Link component={Link} to="/aboutus" underline="none">
             <img src={logoImage} alt="Logo" style={{ width: "150px" }} /> 
-          </Link>
+            </Link>
         </Typography>
         <Toolbar sx={{ display: "flex", justifyContent: "end", flexGrow: 1 }}>
           <IconButton
@@ -108,8 +109,8 @@ function DrawerAppBar(props) {
             />
             <CustomMenu menuName="Industry" menuItems={menuItems2} />
             <CustomMenu menuName="Solutions" menuItems={menuItems3} />
-            <Button href="aboutus">About Us</Button>
-            <Button href="joinus">Career</Button>
+            <Button component={Link} to="/aboutus">About Us</Button>
+        <Button component={Link} to="/joinus">Career</Button>
 
 
           </Box>

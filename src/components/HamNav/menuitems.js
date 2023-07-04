@@ -2,14 +2,20 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
 
 export default function CustomMenu({ menuName, menuItems }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
+  const navigate = useNavigate();
 
   const handleClick = (event) => {
-    setAnchorEl(event.currentTarget); 
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleItemClick = (link) => {
+    setAnchorEl(null);
+    navigate(link);
   };
 
   const handleClose = () => {
@@ -35,22 +41,12 @@ export default function CustomMenu({ menuName, menuItems }) {
         MenuListProps={{
           'aria-labelledby': `${menuName}-button`,
         }}
-        // PaperProps={{
-        //   style: {
-        //     width: '20%',
-        //   },
-        // }}
       >
         {menuItems.map((item, index) => (
-          <MenuItem key={index} onClick={handleClose}>
-          <Button
-              component={RouterLink}
-              to={item.link}
-              color="inherit"
-              underline="none"
-            >
+          <MenuItem key={index} onClick={() => handleItemClick(item.link)}>
+            <RouterLink to={item.link} style={{ textDecoration: 'none', color: 'inherit' }}>
               {item.text}
-            </Button>
+            </RouterLink>
           </MenuItem>
         ))}
       </Menu>
