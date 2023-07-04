@@ -1,8 +1,8 @@
 import BannerImg from '../../../components/BannerImg/BannerImg'
 import CardContainer from './CardContainer/CardContainer'
 import Testimony from "./Testimony/Testimony"
-import CardImg from "../../../components/CardImg/CardImg"
-import CardImage from "../../../assets/ourApproach/1.webp";
+// import CardImg from "../../../components/CardImg/CardImg"
+// import CardImage from "../../../assets/ourApproach/1.webp";
 
 const HumanCapital = () => {
   return (
@@ -11,10 +11,10 @@ const HumanCapital = () => {
  
 <CardContainer/>
 <Testimony/>
-<CardImg
+{/* <CardImg
         imageSrc={CardImage}
         title="Card Title"
-      />
+      /> */}
 
     </div>
   )
