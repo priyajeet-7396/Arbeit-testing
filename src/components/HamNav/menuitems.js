@@ -2,7 +2,6 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Link from '@mui/material/Link';
 import { Link as RouterLink } from 'react-router-dom';
 
 export default function CustomMenu({ menuName, menuItems }) {
