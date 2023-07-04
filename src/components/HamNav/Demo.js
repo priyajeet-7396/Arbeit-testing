@@ -87,7 +87,7 @@ function DrawerAppBar(props) {
           variant="h6"
           component="div"
         >
-            <Link component={Link} to="/aboutus" underline="none">
+            <Link component={Link} to="/" underline="none">
             <img src={logoImage} alt="Logo" style={{ width: "150px" }} /> 
             </Link>
         </Typography>
