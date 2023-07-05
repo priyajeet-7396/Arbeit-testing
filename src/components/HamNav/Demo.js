@@ -22,7 +22,7 @@ import { Link } from 'react-router-dom';
 
 const drawerWidth = 240; 
 const menuItems1 = [
-  { text: 'Digital Transformation & Ai', link: '/digitaltransformation' },
+  { text: 'Digital, Data Science & AI', link: '/digitaltransformation' },
   { text: 'Human Capital', link: '/humanResourceManagement' },
   { text: 'Transformat & Change Management', link: '/TransformationandChangeManagement' },
 ];
