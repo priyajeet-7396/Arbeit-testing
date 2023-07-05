@@ -53,7 +53,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-      <Link component={Link} to="/" underline="none">
+      <Link component={Link} to="/" underline="none"> 
       <img src={logoImage} alt="Logo" style={{ width: "120px" }} /> 
         </Link>
       </Typography>
