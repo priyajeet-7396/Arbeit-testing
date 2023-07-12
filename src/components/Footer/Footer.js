@@ -24,7 +24,7 @@ const Footer = () => {
             </Link>
            
             <div className="join_us">
-        <Link  className="txt" to="join">Contact Us</Link>
+        <Link  className="txt" to="https://www.arbeit.co.in/hr/contactus.php">Contact Us</Link>
         </div>  
       </div>
       <div className="social_icon">
@@ -46,9 +46,9 @@ const Footer = () => {
         
         <article>
             <h4 className="link-title">Capabilities</h4>
-            <Link className="footer-menu-link" to="dataAnalytics">Digital Transformation & AI</Link>
-            <Link className="footer-menu-link" to="https://www.arbeit.co.in/hr/">Human Capital</Link>
-            <Link className="footer-menu-link" to="TransformationandChangeManagement">Transformation and Change Management</Link>   
+            <Link className="footer-menu-link" to="dataAnalytics">Digital, Data Science & AI</Link>
+            <Link className="footer-menu-link" to="humanResourceManagement">Human Capital</Link>
+            <Link className="footer-menu-link" to="TransformationandChangeManagement">Transformation & Change Management</Link>   
         </article>
         <article>
             <h4 className="link-title">Industry</h4>
@@ -59,7 +59,7 @@ const Footer = () => {
         </article>
         <article>
             <h4 className="link-title" >Solutions</h4>
-            <Link className="footer-menu-link" to="finTex">FinTex</Link>
+            <Link className="footer-menu-link" to="finTex">Fintech</Link>
             <Link className="footer-menu-link" to="earth">Human Capital</Link>
             <Link className="footer-menu-link" to="earth">Capital Market</Link>
             <Link className="footer-menu-link" to="earth">RegTech</Link>

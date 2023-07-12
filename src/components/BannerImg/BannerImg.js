@@ -36,7 +36,7 @@ const Banner = () => {
             <div className="content_hr">
               <h2 className="heading_hr">{slideData[index].heading}</h2>
               <p className="paragraph_hr">{slideData[index].paragraph}</p>
-              <a href="/joinus" className="contact_link_hr">
+              <a href="https://www.arbeit.co.in/hr/contactus.php" className="contact_link_hr">
     <button className="contact_btn_hr">Contact Us</button>
   </a>
             </div>

@@ -36,7 +36,7 @@ const menuItems3 = [
   { text: 'Fintech', link: '/finTech' },
   { text: 'Human Capital', link: '/humancapital' },
   { text: 'Capital Market', link: '/capitalmarket' },
-  { text: 'Regtech', link: '/regtech' }
+  { text: 'RegTech', link: '/regtech' }
 ];
 
 
